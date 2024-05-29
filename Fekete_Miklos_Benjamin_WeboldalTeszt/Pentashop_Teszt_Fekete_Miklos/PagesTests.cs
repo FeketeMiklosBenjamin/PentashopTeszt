@@ -22,7 +22,6 @@ namespace Pentashop_Teszt_Fekete_Miklos
                 {
                     if (platform.Text == testPlatform)
                     {
-                        Console.WriteLine("ok");
                         platform.Click();
                         break;
                     }
@@ -33,7 +32,6 @@ namespace Pentashop_Teszt_Fekete_Miklos
                     if (streamer.Text == testStreamer)
                     {
                         streamer.Click();
-                        Console.WriteLine("ok");
                         break;
                     }
                 }
@@ -64,7 +62,9 @@ namespace Pentashop_Teszt_Fekete_Miklos
         public static TestCaseData[] testDatas =
         {
             new TestCaseData("YOUTUBE" ,"NESSAJ", reader.productsDataList("NessajTest1")),
-            new TestCaseData("YOUTUBE" ,"STARK PANZER", reader.productsDataList("StarkPanzerTest1"))
+            new TestCaseData("YOUTUBE" ,"NESSAJ", reader.productsDataList("NessajTest2")),
+            new TestCaseData("YOUTUBE" ,"STARK PANZER", reader.productsDataList("StarkPanzerTest1")),
+            new TestCaseData("TWITCH" ,"AVID IS ODD", reader.productsDataList("AvidIsOddTest1"))
         };
     }
 }

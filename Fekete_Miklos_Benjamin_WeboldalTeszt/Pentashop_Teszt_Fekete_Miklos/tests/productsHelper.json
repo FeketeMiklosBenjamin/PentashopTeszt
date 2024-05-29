@@ -1,10 +1,16 @@
 {
   "NessajTest1": [
-    "Nessaj Kulacs (Fekete)",
-    "Nessaj Kulacs (Pink)"
+    "Nessaj Kulacs (Fekete)"
+  ],
+  "NessajTest2": [
+    "Nessaj Kulacs (Pink)",
+    "Nessaj Tornazsák"
   ],
   "StarkPanzerTest1": [
     "Stark Panzer bögre",
     "PortalRex bögre"
+  ],
+  "AvidIsOddTest1": [
+    "Avid 2021 snapback sapka"
   ]
 }

@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebDriverManager.DriverConfigs.Impl;
-using static System.Net.WebRequestMethods;
 
 namespace Pentashop_Teszt_Fekete_Miklos.utilities
 {
